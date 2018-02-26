@@ -1,15 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
 int x,y,Temp;
 printf("Enter the value of x: ");
-scanf("%lf", &x);
+scanf("%d", &x);
 printf("Enter the value of y: ");
-scanf("%lf",&y);
+scanf("%d",&y);
 Temp=x;
 x =y;
 y =Temp;
-printf("\nAfter swapping, a = %.2lf\n",x);
-printf("After swapping, secondNumber = %.2lf",y);
+printf("\nAfter swapping,a =%.2d\n",x);
+printf("\nAfter swapping,b= %.2d\n",y);
 return 0;
 }
